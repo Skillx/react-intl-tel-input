@@ -1,10 +1,5 @@
 module.exports = {
-  collectCoverageFrom: [
-    'src/**/*.js',
-    '!**/__mocks__/**',
-    '!**/__tests__/**',
-    '!.storybook',
-  ],
+  collectCoverageFrom: ['src/**/*.js', '!**/__mocks__/**', '!**/__tests__/**'],
   setupFiles: ['<rootDir>/config/jest/setup.js'],
   setupTestFrameworkScriptFile: '<rootDir>/config/jest/setupTestFramework.js',
   testEnvironment: 'jsdom',
