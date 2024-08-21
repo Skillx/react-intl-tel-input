@@ -18,6 +18,7 @@ module.exports = {
     'jsx-a11y/anchor-has-content': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'react/destructuring-assignment': 'off',
+    'react/forbid-prop-types': 'off',
     'react/jsx-no-bind': 'error',
     'react/no-multi-comp': 'off',
     'no-restricted-syntax': [
