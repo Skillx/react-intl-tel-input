@@ -1401,7 +1401,7 @@ IntlTelInput.propTypes = {
   /** Render fullscreen flag dropdown when mobile useragent is detected. The dropdown element is rendered as a direct child of document.body */
   useMobileFullscreenDropdown: PropTypes.bool,
   /** Pass through arbitrary props to the tel input element. */
-  telInputProps: PropTypes.object, // eslint-disable-line react/forbid-prop-types
+  telInputProps: PropTypes.object,
   /** Format the number. */
   format: PropTypes.bool,
   /** Allow main app to do things when flag icon is clicked. */
