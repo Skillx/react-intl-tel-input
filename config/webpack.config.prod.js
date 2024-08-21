@@ -76,12 +76,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
-        loader: 'eslint-loader',
-        enforce: 'pre',
-        include: paths.appSrc,
-      },
-      {
         exclude: [
           /\.html$/,
           /\.(js|jsx)$/,
