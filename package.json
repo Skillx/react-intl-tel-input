@@ -1,6 +1,6 @@
 {
   "name": "@skillx/react-intl-tel-input",
-  "version": "8.3.0",
+  "version": "8.3.1",
   "description": "Telephone input component. Rewrite intl-tel-input in React.js.",
   "author": "patw",
   "workspaces": [
@@ -32,8 +32,11 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "exports": {
-    "require": "./dist/cjs/index.js",
-    "import": "./dist/esm/index.js"
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js"
+    },
+    "./dist/main.css": "./dist/main.css"
   },
   "types": "dist/index.d.ts",
   "peerDependencies": {
